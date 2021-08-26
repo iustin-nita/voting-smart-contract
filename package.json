@@ -1,0 +1,23 @@
+{
+  "name": "voting-smart-contract",
+  "version": "1.0.0",
+  "description": "Simple voting smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iustin-nita/voting-smart-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iustin-nita/voting-smart-contract/issues"
+  },
+  "homepage": "https://github.com/iustin-nita/voting-smart-contract#readme",
+  "dependencies": {
+    "ethers": "^5.4.5"
+  }
+}

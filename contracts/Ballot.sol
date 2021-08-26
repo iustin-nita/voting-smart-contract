@@ -65,8 +65,8 @@ contract Ballot {
       require(to != msg.sender, 'You cannot delegate your vote to yourself');
 
       // Forward delegation as long as 'to' also delegated
-      while(voters[to].delegate != address(0)) {
-        to = voters[to].delegate;
+      while(voters[to].delegate != address(0)) { // is not empty address
+        to = voters[to].delegate; // delegate to the address that 'to' delegated to
 
         // We found a loop in the delegation, not allowed.
         require(to != msg.senderm 'Found loop in delegation');
